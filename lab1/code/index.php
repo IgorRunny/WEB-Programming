@@ -34,3 +34,13 @@ echo "On average each language was studied: $DaysPerLanguage days\n";
 // task4
 echo 8**2;
 echo"\n";
+
+// task5
+$MyNum = 233;
+$Answer = $MyNum;
+$Answer += 2;
+$Answer *= 2;
+$Answer -= 2;
+$Answer /= 2;
+$Answer -= $MyNum;
+echo"$Answer \n";
