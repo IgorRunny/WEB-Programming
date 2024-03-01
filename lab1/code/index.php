@@ -12,8 +12,8 @@ $AnyInt = 52;
 echo $AnyInt;
 echo "\n";
 
-$Door = 3.14;
-echo $Door;
+$AnyFloat = 3.14;
+echo $AnyFloat;
 echo "\n";
 
 echo $AnyInt / 4 - 1;
@@ -30,3 +30,7 @@ $Month = 11;
 $Days = $Month * 16;
 $DaysPerLanguage = $Days / $NumLanguages;
 echo "On average each language was studied: $DaysPerLanguage days\n";
+
+// task4
+echo 8**2;
+echo"\n";
