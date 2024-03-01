@@ -1,12 +1,29 @@
 <?php
-/* Imagine a lot of code here */
+/* task1 */
 $very_bad_unclear_name = "15 chicken wings";
 
 
-// Write your code here:
+
 $order = & $very_bad_unclear_name;
 $order .= ", but have some new letters";
 
-// Don't change the line below
-echo "\nYour order is: $very_bad_unclear_name.";
 
+echo "\nYour order is: $very_bad_unclear_name.\n";
+
+/* task2 */
+
+$AnyInt = 52;
+echo $AnyInt;
+echo "\n";
+
+$Door = 3.14;
+echo $Door;
+echo "\n";
+
+echo $AnyInt / 4 - 1;
+echo "\n";
+
+$LastMonth = 1187.23;
+$ThisMonth = 1089.98;
+echo "last month I spent more on: ". $LastMonth - $ThisMonth;
+echo "\n";
