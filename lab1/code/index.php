@@ -117,3 +117,12 @@ foreach($Arr1 as $value){
     $Ans += $value;
     $Counter++;
 }
+
+// task7
+function PrintStringReturnNumber(){
+    echo"Hello, world!\n";
+    return strlen("Hello, world!");
+}
+$MyNum1 = PrintStringReturnNumber();
+echo "$MyNum1\n";
+
