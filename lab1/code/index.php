@@ -308,7 +308,7 @@ function Massive($arr = [], $i = 1){
 function SumOfPair($String){
     $arr = str_split($String, 2);
     $Output = array_sum($arr);
-
+    echo $Output;
 }
 $String = "1234567890";
 SumOfPair($String);
