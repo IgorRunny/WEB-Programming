@@ -166,3 +166,67 @@ function SumOfNumbers(int $num){
 }
 echo SumOfNumbers(99991). "\n";
 
+// task9
+$Array9 = [];
+for($i = 0; $i <= 10; $i++){
+    $count = 0;
+    $Array9[$i] = "x";
+    while($count < $i){
+        $Array9[$i] .= "x";
+        $count++;
+    }
+}
+
+function ArrayFill($item, int $amount){
+    $Out = [];
+    for($i = 0; $i < $amount; $i++){
+        $Out[$i] = $item;
+    }
+    return $Out;
+}
+
+$Array91 = [[]];
+for($i = 0; $i < 10; $i++){
+    for($j = 0; $j < 10; $j++){
+      $Array91[$i][$j] = rand(1, 10);
+    }
+}
+$Out = 0;
+for($i = 0; $i < array_key_last($Array91); $i++){
+    for($j = 0; $j < array_key_last($Array91[$i]); $j++){
+        $Out += $Array91[$i][$j];
+    }
+}
+echo $Out. "\n";
+
+$Array91 = [[]];
+$count = 1;
+for($i = 0; $i < 3; $i++){
+    for($j = 0; $j < 3; $j++){
+        $Array91[$i][$j] = $count++;
+    }
+}
+
+$Array92 = [2, 5, 3, 9];
+$result = $Array92[0] * $Array92[1] + $Array92[2] * $Array92[3];
+echo $result. "\n";
+
+$user = [
+    "name" => "Igor",
+    "surname" => "Bolshakov",
+    "patronymic" => "Romanovich"
+];
+echo "$user[surname] $user[name] $user[patronymic]\n";
+
+$date = [
+    "year" => 2024,
+    "month" => 3,
+    "day" => 2
+];
+echo "$date[year]-$date[month]-$date[day]\n";
+
+$arr = ["a","b","c","d","e"];
+echo array_key_last($arr) + 1, "\n";
+
+echo $arr[array_key_last($arr)]. "\n";
+echo $arr[array_key_last($arr) - 1]. "\n";
