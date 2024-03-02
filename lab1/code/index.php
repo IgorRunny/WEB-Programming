@@ -126,3 +126,43 @@ function PrintStringReturnNumber(){
 $MyNum1 = PrintStringReturnNumber();
 echo "$MyNum1\n";
 
+// task8
+function IncreaseEnthusiasm($Item){
+    return "$Item". "!";
+}
+$String = "Random string";
+echo IncreaseEnthusiasm($String). "\n";
+
+function RepeatThreeTimes($Item){
+    return "$Item". "$Item". "$Item";
+}
+echo RepeatThreeTimes($String). "\n";
+
+echo IncreaseEnthusiasm(RepeatThreeTimes($String)). "\n";
+
+function Cut($str, $NumOfSimbols = 10){
+    return substr_replace($str, "", $NumOfSimbols, strlen($str) - $NumOfSimbols);
+}
+echo Cut($String, 3). "\n";
+
+function PrintArray($arr, $i = 0){
+    echo $arr[$i]. "\n";
+    if(array_key_last($arr) > $i){
+        PrintArray($arr, ++$i);
+    }
+}
+PrintArray($Arr1);
+
+function SumOfNumbers(int $num){
+    $Out = 0;
+    while($num != 0 ){
+        $Out += $num % 10;
+        $num = intdiv($num, 10);
+    }
+    if($Out >= 10){
+        $Out = SumOfNumbers($Out);
+    }
+    return $Out;
+}
+echo SumOfNumbers(99991). "\n";
+
