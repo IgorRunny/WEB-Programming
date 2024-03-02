@@ -263,3 +263,12 @@ if($age < 10 || $age > 99){
 $arr10 = [1,6,14,90,32,8];
 if(array_key_last($arr10) + 1 == 3)
     echo $arr10[0] + $arr10[1] + $arr10[2]. "\n";
+
+// task11
+for($i = 1; $i <= 20; $i++){
+    $count = 0;
+    while($count++ < $i){
+        echo "x";
+    }
+    echo "\n";
+}
