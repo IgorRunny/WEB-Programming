@@ -272,3 +272,45 @@ for($i = 1; $i <= 20; $i++){
     }
     echo "\n";
 }
+
+// task12
+$arr12 = [1,6,14,90,32,8];
+echo array_sum($arr12) / (array_key_last($arr12) + 1). "\n";
+
+function Sum($out = 0, $i = 1)
+{
+    $out += $i;
+    if(++$i <= 100){
+        Sum($out, $i);
+    }else{
+        echo $out;
+    }
+}
+
+$out = [];
+$i = 0;
+function St_qr_t($array, $out, $i){
+    $out[$i] = sqrt($array[$i]);
+    $i++;
+    if($i <= array_key_last($array)){
+        St_qr_t($array, $out, $i);
+    }
+}
+
+function Massive($arr = [], $i = 1){
+    $arr[chr($i + 96)] = $i;
+    if($i + 96 < 122){
+        Massive($arr, ++$i);
+    }
+}
+
+
+function SumOfPair($String){
+    $arr = str_split($String, 2);
+    $Output = array_sum($arr);
+
+}
+$String = "1234567890";
+SumOfPair($String);
+
+
