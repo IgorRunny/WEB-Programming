@@ -230,3 +230,36 @@ echo array_key_last($arr) + 1, "\n";
 
 echo $arr[array_key_last($arr)]. "\n";
 echo $arr[array_key_last($arr) - 1]. "\n";
+
+// task10
+function More10 ($num1, $num2){
+    if($num1 + $num2 > 10){
+        return true;
+    }
+    return false;
+}
+
+function Ecual ($num1, $num2){
+    if($num1 == $num2){
+        return true;
+    }
+    return false;
+}
+
+$test = 3;
+if($test == 0)
+    echo true;
+
+$age = rand(1, 100);
+if($age < 10 || $age > 99){
+    echo "age less 10 or more 99\n";
+}else{
+    if((($age % 10) + intdiv($age, 10)) <= 9){
+        echo "the sum of the digits is one digits\n";
+    }else
+        echo "the sum of the digits is two digits\n";
+}
+
+$arr10 = [1,6,14,90,32,8];
+if(array_key_last($arr10) + 1 == 3)
+    echo $arr10[0] + $arr10[1] + $arr10[2]. "\n";
