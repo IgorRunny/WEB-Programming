@@ -1,4 +1,5 @@
 <?php
+echo "<pre>";
 // task1
 $very_bad_unclear_name = "15 chicken wings";
 
@@ -93,7 +94,7 @@ $b = 233;
 $Abs = abs($a - $b);
 
 $ArrayOfNum = [1, 2, -1, -2, 3, -3];
-foreach ($ArrayOfNum as $value){
+foreach ($ArrayOfNum as & $value){
     $value = abs($value);
 }
 
