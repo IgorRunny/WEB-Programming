@@ -3,15 +3,37 @@ if (false === isset( $_POST['email'], $_POST['category'], $_POST['title'], $_POS
     header('Location: /');
     exit();
 }
+
+require __DIR__ . "/vendor/autoload.php";
+$client = new Google_Client();
+$client->setApplicationName('Google and PHP');
+$client->setScopes([\Google_Service_Sheets::SPREADSHEETS]);
+$client->setAccessType('offline');
+$client->setAuthConfig(__DIR__ . "/creditionals.json");
+$service = new Google_service_Sheets($client);
+$spreadsheetId = "1dOHfiUnAJXXBqVvkyTsfsBiYEZ8IITQxWdY23o3FGiw";
+
 $category = $_POST['category'];
 $title = $_POST['title'];
 $description = $_POST['description'];
 $path = "categories/{$category}/{$title}.txt";
 
-if(false === file_put_contents($path, $description)){
-    throw new Exception("Oooooops");
+$range = "Лист1";
+$dataRow =[[$category, $title, $description]];
+
+$body = new Google_Service_Sheets_ValueRange();
+$body->setValues($dataRow);
+
+$insert = ['insertDataOption' => "INSERT_ROWS"];
+$params = ['valueInputOption' => 'RAW'];
+try {
+    $service->spreadsheets_values->append(
+        $spreadsheetId,
+        $range,
+        $body,
+        $params);
+} catch (\Google\Service\Exception $e) {
+    echo "error" . $e;
 }
-chmod($path, 0777);
-header('Location: /');
 exit();
 ?>
