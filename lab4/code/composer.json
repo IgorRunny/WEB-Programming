@@ -1,0 +1,10 @@
+{
+    "name": "igorunny/lab4",
+    "description": "-",
+    "type": "project",
+    "license": "no",
+    "minimum-stability": "dev",
+    "require": {
+        "google/apiclient":"2.15.0"
+    }
+}

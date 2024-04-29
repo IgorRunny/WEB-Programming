@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "web-programming-lab4",
+  "private_key_id": "2d764b13082a3b6c5f51d06b6d0713d923c1bff9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC/Mqdo8RR7RiPC\ny5rFlMSoQCaCMatLulqCKiWNLsfRV9URJebM+p/BdtEDvpPQLmeBIw1/i9afbFhm\nYGjU8T9k1N6nFKs/YPbOf3Q9t8HmN7wUEF8wjXrKCH+SAOU/HYr6eWfbFf7USK5g\nqz83kswTOkKUpe0QRa3MgTbqehwpy3SNoXrwdhjKSePSwuNEIQ2DzGVJkHhGpGSB\nCWDmckxDANBy5+GinFeF0rasStI7RE/7r1p2pmLHtrbb98KA2c3tT8p4AsuNUa4h\n54HAurdIREfKBeHPKlBkqg1K4oQoLdi3bKvKGd/CrSdLMG/EU00gIXz1y0zJAcmz\ntIQOov2rAgMBAAECggEAOZtneWT5yNKvP6fc8B8MyazabWvNsrlpP8K3Ibywk9Ck\n78+9pJD2xXGpNDmdi6IPqYcIMB/QAKTCVcZCj7ZIZXcFxs2hcy0h78HTIi1VjKnK\nTzlHlPdrwaeh2DnQ2J1sHF+r/QS5jPiBIbs3BuWB+2EYYnVD4h08alucUjWMesK+\nm8M/BOTXxc000GQZ5jCfqXSTOTLdLAMvtuOHBCFQdNKwRXSf+j//5+ujz821IGvu\nw5HcMkz2FMSnaeCCehCfNDnRf53PS/rekOqRWwMP82M7sD2/evE2n+ZOBKnFupwY\nS70Sqw9WhdFoZAHgTldB/bDzFjZXd3aC4RvHGrprEQKBgQDu1jtOCrHMtwT+yB2N\nej8pvk2aBihGwui488/+/ZJwX1V46TbMs2FWjSPGchxA0Vv97lZAImVBQQH/ZPJY\nSuMAPnKuhMzuvV6dLssCJGFSxboS1P2cIQFP3wrzVdYCifyRvQTJv+Sy1nWo5Equ\nKjCKF0x2cE6+m00yZV8+D4pJDQKBgQDM8AfVniA73HEfQhIhdaGc59k6AqJtAs7V\n3geZdGVPOJlOkH/gFEij/W8uhESl0YHbxOS8NCORDTe1ig3joVlYInF677gKrxhL\nKelCNzGNf5GOjLndl1VYxVf6d2yRvbLpeq+tCeWACX3qP97UPhEFm9Aqpt1ucZAN\nXfW/QuHDlwKBgBqSFNjy0aL/vXuG0drafcpsFIANLU/qATAKV9p7ZV5BDOY9s84E\nKtERNKiwKzp+0Cgo6smJyg//ZnR+S4PNGQH+8I0/0vjAcpU0Dnu3hmhJ/RB5R5mm\nBlpXawV1SDDSHxormCvFwHCw8TgP5csIgIvsWaJXjjsgVe9EXdsuqWjFAoGAHDZW\n/cNc8KCyOflggZat/umz79Z5AcTHMI32QdvSLou+HyCpWfGw5lJ3QdIXmTQ0Skra\nqkYLN2a4apdsvg9yOz3SnXfuwBnGoGJOqDzs52vOX+9jjuvMZgIU0HgsTAvvW1D2\naj3YiD3GRb8xL8qzkTAYAiciiJe9mvl6YTAV4FUCgYAUHwJLDkRgTRHQADL0j53P\nu3zemd909I9zmOgcjgCRs8BDypwkZzTcST76vK6pG8/qouv3Fm4Q8UAN+vmXuazH\n+hvEgCFLZgauBYrSXGbQYRs7/qUBoHjviMErOCVBp3X2OM6M3bn+ecZht7K1NPu/\nQugHi8Z0z0xlEdAdpLG1ZQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "sheetsphp-57@web-programming-lab4.iam.gserviceaccount.com",
+  "client_id": "105850763871274760531",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sheetsphp-57%40web-programming-lab4.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
